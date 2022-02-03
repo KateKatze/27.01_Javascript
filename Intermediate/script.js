@@ -5,6 +5,7 @@ let capitalize = (() => {
 })();
 console.log(`${capitalize.charAt(0).toUpperCase()} am a web developer`);
 
+
 // average grade counted
 
 function avGrade(math, physics, english) {
