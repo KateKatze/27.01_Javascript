@@ -10,25 +10,7 @@ console.log(`${capitalize.charAt(0).toUpperCase()} am a web developer`);
 function avGrade(math, physics, english) {
     sum = math + physics + english;
     average = sum / 3;
-    return (`Sum: ${sum}\nAverage: ${average}`)
+    return (`Sum: ${sum} \n Average: ${average}`)
 }
 
 console.log(avGrade(3, 4, 5));
-
-// time converter 2 diff solutions
-
-function timeConv(min) {
-    hrs = Math.floor(min / 60);
-    rest = min % 60;
-    return (min + " minutes" + " is " + hrs + " hour(s) and " + rest + " minutes.");
-}
-
-console.log(timeConv(13456));
-
-// function timeConv (min) {
-//     hrs = parseInt(min /60);
-//     rest=min%60;
-//     return (`${min} minutes is ${hrs} hour(s) and ${rest} minutes.`);
-// }
-
-// console.log(timeConv(186));
